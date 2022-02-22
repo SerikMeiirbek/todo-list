@@ -11,13 +11,13 @@ public class TodoItem {
     // == fields ==
     private String title;
     private String details;
-    private LocalDate deadLine;
+    private LocalDate deadline;
     private int id;
 
     // == constructor ==
-    public TodoItem(String title, String details, LocalDate deadLine) {
+    public TodoItem(String title, String details, LocalDate deadline) {
         this.title = title;
         this.details = details;
-        this.deadLine = deadLine;
+        this.deadline = deadline;
     }
 }
