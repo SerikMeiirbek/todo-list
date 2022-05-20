@@ -28,9 +28,6 @@
                 <td><label>Details</label></td>
                 <td><form:textarea path="details"/></td>
             </tr>
-            <tr>
-                <td><input type="submit" value="Submit"/></td>
-            </tr>
         </table>
 
     </form:form>
